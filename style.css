@@ -8,6 +8,7 @@
 }
 
 body {
+    background-color: #131313;
     color: white;
     font-family: 'Montserrat', sans-serif;
 }
@@ -31,19 +32,35 @@ h1{
     height: 100vh;
 }
 
-/* matrix effect css */
-
-.matrix {
-    display: flex;
-    color: pink;
-    width: 12px;
-    font-family: 'Courier New', Courier, monospace;
+.section-content{
+    background: linear-gradient(180deg, rgba(2,0,36,0) 0%, rgb(44, 44, 44) 100%);
 }
 
-.matrix-wrap{
-    display: flex;
+.cards{
+    display: grid;
+    padding: 30px;
+    justify-content: space-between;
 }
 
-.section-wrapper{
-    background: linear-gradient(180deg, black, rgb(19, 19, 19));
+.card{
+    background-color: #2e2e2e;
+    width: 10rem;
+    border-radius: 4px;
+    text-align: center;
+    box-shadow: 2px 2px 2px black;
+    transition: 1s;
+}
+
+.card h1{
+    font-size: 24px;
+}
+
+.card:hover{
+    transform: scale(1.1);
+    background-color: #5c5c5c;
+}
+
+#card-link{
+    all: unset;
+    cursor: pointer;
 }
