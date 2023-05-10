@@ -1,6 +1,6 @@
 # ***100 dias de JavaScript***
 
-* ### O projeto 100 dias de javascript tem como intuito aprimorar e desenvolver as minhas habilidades em javascript. o projeto consiste em um desafio de 100 dias, onde cada dia um código diferente deverá ser feito, apenas utilizando das linguagens: 
+*  O projeto 100 dias de javascript tem como intuito aprimorar e desenvolver as minhas habilidades em javascript. o projeto consiste em um desafio de 100 dias, onde cada dia um código diferente deverá ser feito, apenas utilizando das linguagens: 
 
 <br/>
 
